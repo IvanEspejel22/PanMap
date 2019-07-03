@@ -1,0 +1,7 @@
+nav {
+  background-color: purple;
+}
+
+nav > ul > li > a.Menu_link {
+  color: red
+}
