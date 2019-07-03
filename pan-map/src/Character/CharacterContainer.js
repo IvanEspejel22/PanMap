@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Character from './Character'
+import SearchBar from '../SearchBar'
 
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
@@ -31,7 +32,8 @@ class CharacterContainer extends Component {
     // console.log('state from render: ', this.state)
     return (
       <div className="App">
-        <header className="App-header">
+        <SearchBar/>
+        <div className="contenedor-cards">
           {
             this.props.characters.map(character => {
               return <Character
@@ -44,7 +46,7 @@ class CharacterContainer extends Component {
               />
             })
           }
-        </header>
+        </div>
       </div>
     );
   }

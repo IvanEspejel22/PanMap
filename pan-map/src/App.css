@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -111,4 +113,158 @@ li:hover>ul {
 
 li ul li {
     position: relative;
+}
+
+
+.contenedor-cards {
+    height: auto;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 32%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imagen-card {
+    height: 100%;
+    width: 30%;
+    /* background-image: url(./Images/pan1.svg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+.card-info {
+    width: 60%;
+    padding: 1rem 1rem;
+}
+
+.card-titulo {
+    height: auto;
+}
+
+.resena {
+    margin-top: 1.2rem;
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+.categorias {
+    display: flex;
+}
+
+.etiqueta {
+    margin-right: .5rem;
+    padding: 0 .5rem 0 .8rem;
+    background-color: #d32339;
+    width: auto;
+    height: 1rem;
+    color: white;
+    font-size: .6rem;
+    font-weight: 300;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.calificacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrella {
+    background-image: url(./Images/estrellas.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    width: 20%;
+    height: 2.2rem;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.hero-fondo {
+    background-image: url(./Images/pan.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+    height: 16vw;
+
+}
+
+.NavBarSearch {
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    padding: 0 2rem;
+    align-items: center;
+    background-color: #B19168;
+
+}
+
+.search nav {
+    background-color: #B19168;
+}
+
+.search-li {
+    width: 28.25%;
+    background-color:#B19168;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-li a:hover {
+    width: 100%;
+    background-color: #633608;
+}
+
+.search input {
+    padding: .8rem 1rem;
+    width: 60%;
+    height: .9rem;
+    border: none;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.search button {
+    height: 2.5rem;
+    background-color: rgba(255, 255, 255, .8);
+    border: none;
+}
+
+.ul-search {
+    width: 80%;
+    background-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
