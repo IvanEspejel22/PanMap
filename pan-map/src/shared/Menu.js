@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import LogoBedu from '../Images/Logo-Bedu.png';
 import IconoMenu from '../Images/usuario.svg';
 import '../App.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
 const Menu = () => {
   return (
     <section id="NavB" className="">
