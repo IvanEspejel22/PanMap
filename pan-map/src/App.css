@@ -22,11 +22,12 @@ body {
 }
 
 .NavBar {
+    height: 100%;
     display: flex;
     align-items: center;
     color: white;
     position: sticky;
-
+    padding: 0;
 }
 
 .NavBar a {
@@ -90,12 +91,12 @@ li {
 
 li a {
     margin: 0;
-    height: 100%;
+    height: 100% !important;
     color: #fff;
     text-decoration: none;
     padding: 14px 12px;
     display: block;
-
+    background-color: red;
 }
 
 li a:hover {

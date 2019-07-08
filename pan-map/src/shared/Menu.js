@@ -2,13 +2,14 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import LogoBedu from '../Images/Logo-Bedu.png';
 import IconoMenu from '../Images/usuario.svg';
-import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import '../App.css';
+
 const Menu = () => {
   return (
     <section id="NavB" className="">
     <NavLink exact to="/"> <img className="logo-bedu" src={LogoBedu} alt="" width="120px"></img></NavLink>
-    <nav className="NavBar center-align">
+    <nav className="NavBar">
         <ul>
            <li>
                 <NavLink exact to="/example" className="" href="login.html">
