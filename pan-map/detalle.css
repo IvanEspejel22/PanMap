@@ -1,0 +1,107 @@
+.detalle-caja {
+    /* background-color: blue; */
+    height: 6rem;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    top: -4rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#hero-detalle {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.detalle-titulo {
+    height: 100%;
+    width: 60%;
+    background-color: #B19168;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.detalle-titulo h2 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: white;
+    font-weight: 400;
+}
+
+.detalle-caja button {
+    border: none;
+    background-color: #B19168;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contenido-detalle {
+    position: relative;
+    top: -2rem;
+    background-color: whitesmoke;
+    height: auto;
+    margin: 0 10%;
+    height: auto;
+    width: 80%;
+    padding: 2rem 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+
+.detalle-subtitulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-detalle {
+    width: 57%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding: 0 2rem;
+}
+
+.detalle-direccion {
+    margin-left: 3%;
+    width: 40%;
+    display: block;
+    height: auto;
+    /* background-color: violet; */
+}
+
+.info-detalle p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.calificacion-detalle {
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrella-detalle {
+    background-image: url(estrellas.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    width: 20%;
+    height: 2.2rem;
+}
+
+.detalle-direccion-titulo{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
