@@ -4,24 +4,30 @@ import axios from 'axios'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import {fetchCharactersAsync} from '../redux/actions/index'
-
+import ReactBnbGallery from 'react-bnb-gallery'
 
 class CharacterDetailContainer extends Component {
+ 
+   constructor() {
+            super(...arguments);
+            this.state = {
+            id: '',
+            direccion:{},
+            fotos: [],
+            autor: '',
+            fecha: '',
+            resena:'',
+            calificacion:'',
+            temas:[],
+            titulo:'',
+            panaderia:'',
+            NombreAutor: '',
+            galleryOpened: false
+          }
+            this.toggleGallery = this.toggleGallery.bind(this);
+          }
 
-  state = {
-    id: '',
-    direccion:{},
-    fotos: [],
-    autor: '',
-    fecha: '',
-    resena:'',
-    calificacion:'',
-    temas:[],
-    titulo:'',
-    panaderia:'',
-    NombreAutor: ''
-    
-  }
+  
 
   componentDidMount(){
     this.getCharacter()
@@ -32,6 +38,7 @@ class CharacterDetailContainer extends Component {
       const res = await axios.get(`http://localhost:3000/resenas/${this.props.match.params.id}`)
       console.log('characters: ', res)
       this.setState({
+        toggleGallery:this.toggleGallery,
         id:res.data.id,
         direccion: res.data.ubicacion,
         fotos: res.data.fotos,
@@ -63,11 +70,23 @@ class CharacterDetailContainer extends Component {
   onGoBack() {
     this.props.history.push("/")
   }
+  
+   toggleGallery() {
+            this.setState(prevState => ({
+              galleryOpened: !prevState.galleryOpened
+            }));
+          }
 
   render() {
     return (
       <>
-        <CharacterDetail 
+        <ReactBnbGallery
+                show={this.state.galleryOpened}
+                photos={this.state.fotos}
+                onClose={this.toggleGallery}
+              />
+        <CharacterDetail
+          
           id= {this.state.id}
           direccion= {this.state.direccion}
           fotos= {this.state.fotos}
@@ -78,6 +97,7 @@ class CharacterDetailContainer extends Component {
           temas= {this.state.temas}
           titulo= {this.state.titulo}
           panaderia= {this.state.panaderia}
+          toggleGallery={() => this.toggleGallery()}
           onGoBack={() => this.onGoBack()}
         />
       </>

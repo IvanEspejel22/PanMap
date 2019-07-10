@@ -26,7 +26,7 @@ const Character = ({image, name, specie, getCharacter, calificacion, resena,id})
         </div>
         <div className="categorias">
         {specie.map((tema) =>
-        <div className="etiqueta">{tema}</div>
+        <div className="etiqueta" key={id+tema}>{tema}</div>
 
         )}
             

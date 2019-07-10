@@ -3,7 +3,7 @@ import IconoHero from "../Images/Fotos.svg";
 import Ratings from 'react-ratings-declarative';
 import Iframe from 'react-iframe'
 
- const CharacterDetail =  ({ fotos, titulo, resena,temas,calificacion, fecha,autor , panaderia , direccion,id }) =>  {
+ const CharacterDetail =  ({ fotos, titulo, resena,temas,calificacion, fecha,autor , panaderia , direccion,id,toggleGallery }) =>  {
   
   const ImagenFondo = {
     backgroundImage: `url(${ fotos[0] })`
@@ -18,7 +18,7 @@ import Iframe from 'react-iframe'
           </div>
           <div>
             <button>
-              <img className="icono-button" src={IconoHero} alt="" />
+              <img className="icono-button" src={IconoHero} onClick={toggleGallery} alt="" />
             </button>
           </div>
         </div>

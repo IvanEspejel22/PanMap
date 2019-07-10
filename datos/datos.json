@@ -19,7 +19,8 @@
         "Chocolate"
       ],
       "fotos": 
-        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png"],
+        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"],
         "calificacion":3
       
     },
@@ -42,7 +43,9 @@
         "Pan dulce"
       ],
       "fotos": 
-        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png"],
+        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+        "https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg",
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"],
       "calificacion":2
       
     },
@@ -67,7 +70,8 @@
         "Tacuba"
       ],
       "fotos": 
-        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png"],
+        ["https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+        "https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg"],
         "calificacion":5
       
     }
