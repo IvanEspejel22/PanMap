@@ -11,7 +11,7 @@ const Menu = () => {
     <NavLink exact to="/"> <img className="logo-bedu" src={LogoBedu} alt="" width="120px"></img></NavLink>
     <nav className="NavBar">
         <ul>
-           <li>
+           <li className="menu-opcion">
                 <NavLink exact to="/example" className="" href="login.html">
                     <img className="icono-menu" src={IconoMenu} alt=""></img>
                     <h5>Perfil</h5>

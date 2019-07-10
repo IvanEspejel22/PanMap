@@ -2,7 +2,7 @@ import { FETCH_CHARACTERS_SUCCESS, FETCH_CHARACTERS_ERROR, FETCH_SINGLE_CHARACTE
 import axios from 'axios'
 
 
-const BASE_URL = 'https://rickandmortyapi.com/api/character/'
+const BASE_URL = 'http://localhost:3000/resenas'
 
 // charactersReducer
 export const fetchCharactersSuccess = characters => ({
@@ -16,12 +16,12 @@ export const fetchCharactersError = err => ({
   error: true
 });
 
-export const fetchCharactersAsync = (url) => {
+export const fetchCharactersAsync = (url=BASE_URL) => {
   return async dispatch => {
     try {
-      const res = await axios.get(BASE_URL)
-      console.log('response: ', res.data.results)
-      dispatch(fetchCharactersSuccess(res.data.results))
+      const res = await axios.get(url)
+      console.log('response: ', res.data)
+      dispatch(fetchCharactersSuccess(res.data))
     } catch(err) {
       dispatch(fetchCharactersError(err))
     }

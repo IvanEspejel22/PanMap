@@ -3,7 +3,7 @@ import IconoHero from "../Images/Fotos.svg";
 import Ratings from 'react-ratings-declarative';
 import Iframe from 'react-iframe'
 
- const CharacterDetail =  ({ fotos, titulo, resena,temas,calificacion, fecha,autor , panaderia , direccion,id }) =>  {
+ const crearResena =  () =>  {
   
   const ImagenFondo = {
     backgroundImage: `url(${ fotos[0] })`
@@ -45,7 +45,7 @@ import Iframe from 'react-iframe'
          <div className="categorias">
          {console.log(temas)}
          {temas.map((tema) =>
-        <div className="etiqueta" key={id+tema} >{tema}</div>
+        <div className="etiqueta">{tema}</div>
 
         )} 
         </div>
@@ -68,10 +68,10 @@ import Iframe from 'react-iframe'
           <Iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.9173883321196!2d-99.18826518500543!3d19.459128286869287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f89e939ac8e1%3A0x58aca53a576b0e88!2sPASTELERIA+LA+PALANCA!5e0!3m2!1ses!2smx!4v1561690575491!5m2!1ses!2smx"
                 width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></Iframe>
-          <div className="detalle-direccion-titulo">
+          <div class="detalle-direccion-titulo">
             <small>Dirección:</small>
             <h6>
-              {direccion.calle} {direccion.numero}, {direccion.alcaldia}, {direccion.cp},{direccion.estado}
+              {direccion.calle} {direccion.numero}, {direccion.alcaldia}, {console.log(direccion.cp)},{direccion.estado}
             </h6>
           </div>
         </div>
@@ -80,4 +80,4 @@ import Iframe from 'react-iframe'
   );
 };
 
-export default CharacterDetail;
+export default crearResena;

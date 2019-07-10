@@ -1,0 +1,97 @@
+{
+  "resenas": [{
+      "id": 1,
+      "autor": 1,
+      "resena": "Seguramente con sólo leer su nombre ya se te antojó una. Hoy te invitamos a conocer un poco de la historia de su origen. Las donas también conocidas como rosquillas o dónuts, son un delicioso pan dulce que normalmente se fríe en manteca de cerdo, son amadas por muchos de nosotros, pero, ¿cómo surgió este rico manjar En el siglo XVI un grupo de panaderos holandeses crearon el Olykoek, o pastel de aceite en español, este pastel era una bolita de masa endulzada del tamaño de una nuez.Con la migración de holandeses a América este pan llegó a lo que hoy en día es Estados Unidos, por su forma y tamaño ahí recibió el nombre “dough nut”, que se traduce como “nuez de masa”, y eventualmente se transformó en donut y en su versión en español dona. El agujero que tienen al centro apareció hasta mediados del siglo XIX cuando Hanson Gregory, un marinero de Pennsylvania con ascendencia holandesa, hizo este agujero en las donas de su madre para evitar que el centro quedara crudo. Con este agujero la cocción de la dona era uniforme y perfecta, el rumor se esparció rápidamente entre la comunidad panadera y todos empezaron a hacerlas de esta forma.",
+      "titulo": "Las mejores donas de la CDMx",
+      "fecha": "22/02/2019",
+      "panaderia": "La palanca",
+      "ubicacion": {
+        "calle": "Calzada México-Tacuba",
+        "numero": "735",
+        "alcaldia": "Tacuba",
+        "estado": "CDMX",
+        "cp": "11410 "
+      },
+      "temas": [
+        "Donas",
+        "Pan dulce",
+        "Chocolate"
+      ],
+      "fotos": 
+        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png"],
+        "calificacion":3
+      
+    },
+    {
+      "id": 2,
+      "autor": 1,
+      "resena": "Seguramente con sólo leer su nombre ya se te antojó una. Hoy te invitamos a conocer un poco de la historia de su origen. Las donas también conocidas como rosquillas o dónuts, son un delicioso pan dulce que normalmente se fríe en manteca de cerdo, son amadas por muchos de nosotros, pero, ¿cómo surgió este rico manjar En el siglo XVI un grupo de panaderos holandeses crearon el Olykoek, o pastel de aceite en español, este pastel era una bolita de masa endulzada del tamaño de una nuez.Con la migración de holandeses a América este pan llegó a lo que hoy en día es Estados Unidos, por su forma y tamaño ahí recibió el nombre “dough nut”, que se traduce como “nuez de masa”, y eventualmente se transformó en donut y en su versión en español dona. El agujero que tienen al centro apareció hasta mediados del siglo XIX cuando Hanson Gregory, un marinero de Pennsylvania con ascendencia holandesa, hizo este agujero en las donas de su madre para evitar que el centro quedara crudo. Con este agujero la cocción de la dona era uniforme y perfecta, el rumor se esparció rápidamente entre la comunidad panadera y todos empezaron a hacerlas de esta forma.",
+      "titulo": "Las mejores donas de la CDMx",
+      "fecha": "22/02/2019",
+      "panaderia": "La palanca",
+      "ubicacion": {
+        "calle": "Calzada México-Tacuba",
+        "numero": "735",
+        "alcaldia": "Tacuba",
+        "estado": "CDMX",
+        "codigo-postal": "11410 "
+      },
+      "temas": [
+        "Donas",
+        "Pan dulce"
+      ],
+      "fotos": 
+        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png"],
+      "calificacion":2
+      
+    },
+    {
+      "id": 3,
+      "autor": 2,
+      "resena": "Seguramente con sólo leer su nombre ya se te antojó una. Hoy te invitamos a conocer un poco de la historia de su origen. Las donas también conocidas como rosquillas o dónuts, son un delicioso pan dulce que normalmente se fríe en manteca de cerdo, son amadas por muchos de nosotros, pero, ¿cómo surgió este rico manjar En el siglo XVI un grupo de panaderos holandeses crearon el Olykoek, o pastel de aceite en español, este pastel era una bolita de masa endulzada del tamaño de una nuez.Con la migración de holandeses a América este pan llegó a lo que hoy en día es Estados Unidos, por su forma y tamaño ahí recibió el nombre “dough nut”, que se traduce como “nuez de masa”, y eventualmente se transformó en donut y en su versión en español dona. El agujero que tienen al centro apareció hasta mediados del siglo XIX cuando Hanson Gregory, un marinero de Pennsylvania con ascendencia holandesa, hizo este agujero en las donas de su madre para evitar que el centro quedara crudo. Con este agujero la cocción de la dona era uniforme y perfecta, el rumor se esparció rápidamente entre la comunidad panadera y todos empezaron a hacerlas de esta forma.",
+      "titulo": "Las mejores donas de la CDMx",
+      "fecha": "22/02/2019",
+      "panaderia": "La palanca",
+      "ubicacion": {
+        "calle": "Calzada México-Tacuba",
+        "numero": "735",
+        "alcaldia": "Tacuba",
+        "estado": "CDMX",
+        "codigo-postal": "11410 "
+      },
+      "temas": [
+        "Donas",
+        "Pan dulce",
+        "Chocolate",
+        "Tacuba"
+      ],
+      "fotos": 
+        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png"],
+        "calificacion":5
+      
+    }
+  ],
+  "usuarios": [{
+    "nombre": "Ivan Alain Espejel Rivera",
+    "id": 1,
+    "foto-perfil": "",
+    "intereses": [
+      "Donas",
+      "Pan dulce",
+      "Chocolate",
+      "Tacuba"
+    ]
+  },
+  {
+    "nombre": "Juan Alain Espejel Rivera",
+    "id": 2,
+    "foto-perfil": "",
+    "intereses": [
+      "Donas",
+      "Pan dulce",
+      "Chocolate",
+      "Tacuba"
+    ]
+  }]
+}

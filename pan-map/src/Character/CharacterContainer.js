@@ -39,10 +39,12 @@ class CharacterContainer extends Component {
               return <Character
                 id={character.id}
                 key={character.id}
-                image={character.image}
-                name={character.name}
-                gender={character.gender}
-                specie={character.species}
+                image={character.fotos}
+                name={character.titulo}
+                gender={character.autor}
+                specie={character.temas}
+                resena={character.resena}
+                calificacion={character.calificacion}
               />
             })
           }
