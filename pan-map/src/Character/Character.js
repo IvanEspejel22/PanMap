@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Ratings from 'react-ratings-declarative';
-
+import eliminar from "../eliminarResena/eliminarResena";
+import eliminarIcon from '../Images/eliminar.svg';
 const Character = ({image, name, specie, getCharacter, calificacion, resena,id}) => {
     console.log(image)
     let resenaResumen =  String(resena);
@@ -14,6 +15,8 @@ const Character = ({image, name, specie, getCharacter, calificacion, resena,id})
   return (
     <div className="cards">
     <div className="imagen-card" style={ImagenFondo}>
+    <button  className="buttonEliminar" type="button" onClick={() => eliminar(id)}><img className="icono-button" src={eliminarIcon}alt=""/></button>
+    {/* <Link to={`/contenedor-editar/${id}`}><button  className="buttonEditar" type="button"><img className="icono-button" src={eliminarIcon}alt=""/></button></Link> */}
     </div>
     <div className="card-info">
         <div className="card-titulo">
@@ -21,7 +24,7 @@ const Character = ({image, name, specie, getCharacter, calificacion, resena,id})
         </div>
         <div className="resena">
             <p>
-               {resenaResumen}... <Link to={`/character-detail/${id}`}> Leer más </Link>
+               {resenaResumen}... <Link to={`/resena-detail/${id}`}> Leer más </Link>
             </p>
         </div>
         <div className="categorias">

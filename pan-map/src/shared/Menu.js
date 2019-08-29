@@ -4,13 +4,19 @@ import LogoBedu from '../Images/Logo-Bedu.png';
 import IconoMenu from '../Images/usuario.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
-
+import mas from '../Images/mas.svg';
 const Menu = () => {
   return (
     <section id="NavB" className="">
     <NavLink exact to="/"> <img className="logo-bedu" src={LogoBedu} alt="" width="120px"></img></NavLink>
     <nav className="NavBar">
         <ul>
+        <li className="menu-opcion">
+                <NavLink exact to="/nueva-resena" className="" href="login.html">
+                    <img className="icono-menu" src={mas} alt=""></img>
+                    <h5>Publicar</h5>
+                </NavLink>
+            </li>
            <li className="menu-opcion">
                 <NavLink exact to="/example" className="" href="login.html">
                     <img className="icono-menu" src={IconoMenu} alt=""></img>

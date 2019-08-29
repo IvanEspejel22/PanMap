@@ -18,11 +18,11 @@
         "Pan dulce",
         "Chocolate"
       ],
-      "fotos": 
-        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
-        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"],
-        "calificacion":3
-      
+      "fotos": [
+        "https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"
+      ],
+      "calificacion": 3
     },
     {
       "id": 2,
@@ -36,66 +36,97 @@
         "numero": "735",
         "alcaldia": "Tacuba",
         "estado": "CDMX",
-        "codigo-postal": "11410 "
+        "cp": "11410 "
       },
       "temas": [
         "Donas",
         "Pan dulce"
       ],
-      "fotos": 
-        ["https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+      "fotos": [
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg",
+        "https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
         "https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg",
-        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"],
-      "calificacion":2
-      
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"
+      ],
+      "calificacion": 2
     },
     {
-      "id": 3,
-      "autor": 2,
-      "resena": "Seguramente con sólo leer su nombre ya se te antojó una. Hoy te invitamos a conocer un poco de la historia de su origen. Las donas también conocidas como rosquillas o dónuts, son un delicioso pan dulce que normalmente se fríe en manteca de cerdo, son amadas por muchos de nosotros, pero, ¿cómo surgió este rico manjar En el siglo XVI un grupo de panaderos holandeses crearon el Olykoek, o pastel de aceite en español, este pastel era una bolita de masa endulzada del tamaño de una nuez.Con la migración de holandeses a América este pan llegó a lo que hoy en día es Estados Unidos, por su forma y tamaño ahí recibió el nombre “dough nut”, que se traduce como “nuez de masa”, y eventualmente se transformó en donut y en su versión en español dona. El agujero que tienen al centro apareció hasta mediados del siglo XIX cuando Hanson Gregory, un marinero de Pennsylvania con ascendencia holandesa, hizo este agujero en las donas de su madre para evitar que el centro quedara crudo. Con este agujero la cocción de la dona era uniforme y perfecta, el rumor se esparció rápidamente entre la comunidad panadera y todos empezaron a hacerlas de esta forma.",
-      "titulo": "Las mejores donas de la CDMx",
-      "fecha": "22/02/2019",
-      "panaderia": "La palanca",
+      "titulo": "El Yo-yo más delicioso",
+      "resena": "on frutas secas y abrillantadas, con chocolate y cáscara de naranja o relleno de crema pastelera. Las versiones del dulce más tradicional de la navidad son tan variadas como las leyendas de su origen. La historia del pan dulce o Panettone se remonta al siglo XV en Italia, más precisamente en Milán. Una de las leyendas más conocidas, dice que el primer Panettone surgió una Nochebuena en la corte de Ludovico El Moro, señor de Milán, por un hecho fortuito. A los cocineros se les había quemado el postre y a Antonio, uno de los ayudantes de cocina, se le ocurrió amasar un pan dulce con fruta confitada y manteca para salvar el banquete del duque. Nunca había realizado esa receta, pero fue tal el éxito que tuvo que Ludovico decidió llamarlo \"Pane de Toni\" en su honor. Otra de las historias habla de un joven aristócrata, Ughetto Atellani de Futi, mejor conocido con Toni, que se enamoró de la hija de un pastelero de Milán y para demostrarle su amor se hizo pasar por aprendiz de pastelero. Por amor a su enamorada inventó un pan con variedad de frutas y cáscara de cítricos y la panadería se empezó a llenar de clientes en busca del afamado \"pan de Toni\".\n\nEl Panettone llegó a Argentina con los inmigrantes italianos, quienes comenzaron con una pequeña producción para continuar con sus tradiciones. \"León Antonio Marcolla nació en 1881 en un pueblo austríaco llamado Vigo di Ton, que luego pertenecería a la provincia italiana de Trento. En 1895, cuando tenía catorce años, arribó a Buenos Aires, comenzó a trabajar en la confitería de un pariente en el Pasaje Carabelas y se le ocurrió comenzar a vender el Panetonne en canastas de mimbre puerta a puerta. El éxito fue inmediato\", explica, el historiador Daniel Balmaceda, autor del libro \"La comida en la historia argentina\". Más allá de la historia, este dulce no puede faltar en la mesa de Navidad y hay opciones clásicas y modernas para todos los gustos.",
       "ubicacion": {
-        "calle": "Calzada México-Tacuba",
-        "numero": "735",
-        "alcaldia": "Tacuba",
-        "estado": "CDMX",
-        "codigo-postal": "11410 "
+        "calle": "Libertad",
+        "numero": "82",
+        "alcaldia": "Azcapotzalco",
+        "estado": "CDMx",
+        "cp": "02090"
       },
+      "panaderia": "San Alvaro",
       "temas": [
+        "Pan dulce",
+        "Vida",
+        "San Alvaro",
+        "Rico"
+      ],
+      "fecha": "10/7/2019",
+      "autor": "1",
+      "fotos": [
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg",
+        "https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+        "https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg",
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"
+      ],
+      "calificacion": 2,
+      "id": 3
+    },
+    {
+      "titulo": "La mejor concha de la CDMX",
+      "resena": "fsddsffddsffdfds",
+      "ubicacion": {
+        "calle": "fdsdfs",
+        "numero": "33",
+        "alcaldia": "fdfsd",
+        "estado": "fdss",
+        "cp": "33"
+      },
+      "panaderia": "fsddfs",
+      "temas": [
+        "dsffd",
+        "fsddsdf",
+        "sdffdsd"
+      ],
+      "fecha": "10/7/2019",
+      "autor": "2",
+      "fotos": [
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg",
+        "https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
+        "https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg",
+        "https://www.yerbamateromance.com.ar/blog/wp-content/uploads/2018/05/pan-relleno-liv-3.jpg"
+      ],
+      "calificacion": 2,
+      "id": 4
+    }
+  ],
+  "usuarios": [{
+      "nombre": "Ivan Alain Espejel Rivera",
+      "id": 1,
+      "foto-perfil": "",
+      "intereses": [
         "Donas",
         "Pan dulce",
         "Chocolate",
         "Tacuba"
-      ],
-      "fotos": 
-        ["https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg","https://cocinamia.com.mx/wp-content/uploads/2018/11/Skype_Picture-1100x500.png",
-        "https://www.elglobo.com.mx/sites/default/files/product-category/seccion-pan-dulce_0.jpg"],
-        "calificacion":5
-      
+      ]
+    },
+    {
+      "nombre": "Juan Alain Espejel Rivera",
+      "id": 2,
+      "foto-perfil": "",
+      "intereses": [
+        "Donas",
+        "Pan dulce",
+        "Chocolate",
+        "Tacuba"
+      ]
     }
-  ],
-  "usuarios": [{
-    "nombre": "Ivan Alain Espejel Rivera",
-    "id": 1,
-    "foto-perfil": "",
-    "intereses": [
-      "Donas",
-      "Pan dulce",
-      "Chocolate",
-      "Tacuba"
-    ]
-  },
-  {
-    "nombre": "Juan Alain Espejel Rivera",
-    "id": 2,
-    "foto-perfil": "",
-    "intereses": [
-      "Donas",
-      "Pan dulce",
-      "Chocolate",
-      "Tacuba"
-    ]
-  }]
+  ]
 }

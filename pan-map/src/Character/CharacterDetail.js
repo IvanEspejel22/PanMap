@@ -71,6 +71,7 @@ import Iframe from 'react-iframe'
           <div className="detalle-direccion-titulo">
             <small>Dirección:</small>
             <h6>
+              {console.log(direccion)}
               {direccion.calle} {direccion.numero}, {direccion.alcaldia}, {direccion.cp},{direccion.estado}
             </h6>
           </div>
